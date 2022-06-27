@@ -1,0 +1,43 @@
+@import url(/scss/partials/_inicio.scss);
+@import url(/scss/sass2/_mixins.scss);
+@import url(/scss/variables/_variables.scss);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root{
+    background-image: linear-gradient(to left, 	rgb(47, 194, 62), rgb(81, 163, 89))
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    width:fit-content;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    border-color: white;
+    border-style: solid;
+}
+header div img{
+    height: 70px;
+}
+
+
+.imagen-inicio{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.imagen-inicio img{
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
+    border-color: rgba(255, 255, 255, 0.8);
+    border-style: solid;
+}
