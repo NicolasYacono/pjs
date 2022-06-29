@@ -41,3 +41,12 @@ header div img{
     border-color: rgba(255, 255, 255, 0.8);
     border-style: solid;
 }
+
+footer{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
