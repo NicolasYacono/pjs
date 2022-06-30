@@ -1,4 +1,4 @@
-/* //PRACTICA
+//PRACTICA
 alert("Bienvenida/o! Le informamos que necesita ser mayor de edad y poseer reprocann para poder inscribirse")
 alert("Ambos seran corroborados con el numero de DNI")
 let dni = parseInt(prompt("Ingrese su DNI"))
@@ -38,6 +38,6 @@ if(dni >= 45000000){
             console.log("Lo sentimos el numero ingresado es incorrecto")
             console.log("Gracias por su visita!")
         } 
-} */
+}
 
 
