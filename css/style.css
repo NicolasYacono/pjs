@@ -43,6 +43,22 @@ header div img{
     border-style: solid;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+nav li{
+list-style: none;
+text-decoration: solid;
+}
+
+nav li:hover{
+    color: white;
+    text-decoration: underline;
+}
 footer{
     display: flex;
     justify-content: space-around;
@@ -57,7 +73,11 @@ footer{
 footer .lema{
     text-decoration: overline;
 }
-footer .redes-sociales img{
+footer .instagram img{
+    height: 30px;
+    margin-bottom: -10px;
+    }
+footer .facebook img{
 height: 30px;
 margin-bottom: -10px;
 }
